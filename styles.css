@@ -105,11 +105,11 @@ body {
 }
 .toggle{
     position: absolute;
-    top: 2.5rem;
-    right: 3.5rem;
+    top: 1.5rem;
+    right: 1.5rem;
     background: var(--toggle-background-color);
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -399,6 +399,9 @@ body {
     #middle {
         width:90vw;
         padding:0px 5vw;
+    }
+    #middle h1{
+        font-size: 50px;
     }
     #middle table {
         width:80%;
